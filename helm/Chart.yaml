@@ -1,0 +1,6 @@
+apiVersion: v2
+name: gitops
+description: A basic Helm chart for deploying the FastAPI Hello World app
+type: application
+version: 0.1.0
+appVersion: "1.0.0"

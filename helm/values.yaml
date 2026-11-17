@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: gitopsacrpoc.azurecr.io/gitops
+  pullPolicy: Always
+  tag: "8ede456"
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 8000
