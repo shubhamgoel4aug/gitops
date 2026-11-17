@@ -3,6 +3,9 @@ from datetime import datetime
 
 app = FastAPI()
 
+@app.get("/healthz")
+async def healthz():
+    return {"message": "Service is up."}
 
 @app.get("/api/hello")
 async def hello():
