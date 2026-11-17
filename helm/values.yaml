@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: gitopsacrpoc.azurecr.io/gitops
   pullPolicy: Always
-  tag: "9f05da4"
+  tag: "8ede456"
 
 service:
   type: LoadBalancer
