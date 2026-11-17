@@ -3,7 +3,9 @@ name: Build and Push to ACR
 on:
   push:
     branches:
-      - main
+      - dev
+    paths-ignore:
+      - 'helm/**'
   workflow_dispatch: 
 
 env:
